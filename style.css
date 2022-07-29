@@ -1,0 +1,38 @@
+#briteness{
+    filter: brightness(50%);
+
+}
+
+.carousel-caption h1{
+    font-size: 45 px;  
+}
+.carousel-caption p{
+    width: 60%;
+    
+    line-height: 1.9;
+}
+@media only screen and (max-width:800px){
+    .navber-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 120px;
+    }
+    .carousel-caption h1{
+        font-size: 17px;
+    }
+.carousel-caption a{
+    padding: 10px 15px;
+    margin-top: 20px;
+}    
+.carousel-caption p{
+    width: 100%;
+    line-height: 1.3;
+    font-size: 12px;
+}
+}
+.courses img{
+    width: 100%;
+    height: 100%;
+}
+ 
